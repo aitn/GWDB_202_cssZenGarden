@@ -1,8 +1,14 @@
 /*
 	main.scss
 */
-/* line 7, sass/style.scss */
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P|VT323");
+/* line 13, sass/style.scss */
 #css-zen-garden {
-  background: #7FAD71 url(images/header_bg.png) repeat-x top center; }
+  background: #7FAD71 url(images/header_bg.png) repeat-x top center;
+  font-family: "VT323", monospace; }
+
+/* line 18, sass/style.scss */
+h1, h2, h3, h4 {
+  font-family: "Press Start 2P", cursive; }
 
 /*# sourceMappingURL=style.css.map */
